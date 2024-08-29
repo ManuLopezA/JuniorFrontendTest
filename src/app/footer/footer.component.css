@@ -1,0 +1,35 @@
+.footerStyle{
+    background-color: #303536;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    padding-top:40px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+    gap: 30%;
+    padding-top: 49px;
+    padding-bottom: 49px;
+}
+
+.footer-faq{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding-top: 32px;
+    padding-bottom: 17px;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-faq{
+        flex-wrap: wrap;
+    }
+}

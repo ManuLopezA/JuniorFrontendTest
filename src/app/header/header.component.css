@@ -1,0 +1,58 @@
+h1 {
+    font-family: 'Tinos', serif;
+    font-size: 42px;
+}
+
+h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.flex-align {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 32px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 400; 
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+.flex-align p {
+    margin: 0;
+}
+
+.flex-align img {
+    margin-left: 10px;
+}
+
+.flex-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.left-aligned-content {
+    width: 60%;
+    margin-left: 0;
+    margin-right: auto;
+    color: #303536;
+}
+
+@media (max-width: 768px) {
+    .left-aligned-content {
+        width: 100%; 
+    }
+}
+
+
+.back-component {
+    background-image: url('/leone-venter-VieM9BdZKFo-unsplash.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+    

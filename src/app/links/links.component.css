@@ -1,0 +1,37 @@
+.links-style {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #848484;
+    margin: 75px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #1D1D1B;
+}
+
+.link-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.link-container>div {
+    flex: 1 1 150px;
+    min-width: 150px;
+    max-width: calc(25% - 30px);
+}
+
+@media (max-width: 768px) {
+    .link-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .link-container>div {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}
