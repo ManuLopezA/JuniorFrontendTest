@@ -1,19 +1,10 @@
-.component-padding{
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.component-padding {
     padding: 80px;
 }
-/*
-body{
-    background-image: url('/leone-venter-VieM9BdZKFo-unsplash.jpg');
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat;
-}
-    */
-
-    body {
-        margin: 0;
-        padding: 0;
-        height: 100%;
-        width: 100%;
-    }
-    

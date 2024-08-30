@@ -1,3 +1,20 @@
+h1{
+    font-size: 64px;
+}
+
+h2{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
 .about-style{    
     background-color: #303536;
     color: #E7E5E4;
@@ -18,19 +35,4 @@
         /*text-align: center;*/
         gap: 20px; 
     }
-}
-
-h1{
-    font-size: 64px;
-}
-h2{
-    font-family: 'DM Sans', sans-serif;
-    font-size: 32px;
-    font-weight: 400;
-}
-p{
-    font-family: 'DM Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 20px;
 }

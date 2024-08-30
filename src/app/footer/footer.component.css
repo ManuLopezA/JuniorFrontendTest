@@ -1,12 +1,12 @@
-.footerStyle{
+.footer-style {
     background-color: #303536;
     color: white;
     font-family: 'DM Sans', sans-serif;
-    padding-top:40px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-top:  40px;
+    padding-bottom: 17px;
 }
-.footer-container{
+
+.footer-container {
     display: flex;
     justify-content: center;
     gap: 30%;
@@ -14,13 +14,29 @@
     padding-bottom: 49px;
 }
 
-.footer-faq{
+.footer-faq {
     display: flex;
     justify-content: center;
     gap: 24px;
     padding-top: 32px;
-    padding-bottom: 17px;
     font-size: 14px;
+}
+
+.footer-social {
+    margin-top: 40px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.footer-social a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.footer-social a:hover {
+    opacity: 0.7;
 }
 
 @media (max-width: 768px) {
@@ -29,7 +45,8 @@
         align-items: center;
         text-align: center;
     }
-    .footer-faq{
+
+    .footer-faq {
         flex-wrap: wrap;
     }
 }

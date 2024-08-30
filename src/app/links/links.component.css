@@ -1,14 +1,14 @@
+h1 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #1D1D1B;
+}
+
 .links-style {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     color: #848484;
     margin: 75px;
-}
-
-h1 {
-    font-size: 36px;
-    font-weight: 500;
-    color: #1D1D1B;
 }
 
 .link-container {
